@@ -6,7 +6,7 @@ description: |
 home: "https://github.com/dingobar/helm-charts/tree/master/mlflow"
 maintainers:
   - url: https://github.com/dingobar/
-    name: Martin Morset
+    name: dingobar
 type: application
 version: 1.0.3
 appVersion: 1.15.2
