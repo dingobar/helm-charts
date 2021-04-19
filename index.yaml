@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   mlflow:
   - apiVersion: v2
+    appVersion: 1.14.1
+    created: "2021-04-19T13:41:15.338117572Z"
+    description: '[MLFlow](https://mlflow.org/) is an open source platform specialized
+      in tracking ML experiments, and packaging and deploying ML models. Forked from
+      https://github.com/larribas/helm-charts/ '
+    digest: a80d4f3cca2d538ac939af9294cb4a170e7951dd1bfd9f826a9254c6bd81c5b9
+    home: https://github.com/dingobar/helm-charts/tree/master/mlflow
+    maintainers:
+    - name: dingobar
+      url: https://github.com/dingobar/
+    name: mlflow
+    type: application
+    urls:
+    - https://github.com/dingobar/helm-charts/releases/download/mlflow-1.0.6/mlflow-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
     appVersion: 1.15.2
     created: "2021-04-19T12:15:32.120390335Z"
     description: '[MLFlow](https://mlflow.org/) is an open source platform specialized
@@ -81,4 +97,4 @@ entries:
     urls:
     - https://github.com/dingobar/helm-charts/releases/download/mlflow-1.0.1/mlflow-1.0.1.tgz
     version: 1.0.1
-generated: "2021-04-19T12:15:32.120427135Z"
+generated: "2021-04-19T13:41:15.338142672Z"
