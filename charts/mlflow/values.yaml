@@ -34,6 +34,9 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+# useProbes -- whether to use readiness and liveness probes
+useProbes: true
+
 serviceAccount:
   # serviceAccount.create -- Specifies whether a service account should be created
   create: true
