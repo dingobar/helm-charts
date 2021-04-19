@@ -55,8 +55,7 @@ spec:
                   key: password
           {{- end }}
           ports:
-            - name: http
-              containerPort: 80
+            - containerPort: 80
               protocol: TCP
           {{- if .Values.useProbes}}
           livenessProbe:
